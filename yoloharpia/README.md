@@ -123,7 +123,7 @@ classificador.imgshow()
 
 Para garantir compatibilidade com o OpenCV, exporte seus modelos YOLO (`.pt`) para ONNX utilizando o argumento `opset=12`.
 
-**Comando de exportação:**
+**Comando de exportação(em um terminal com YOLO):**
 ```bash
 yolo export model=best.pt format=onnx opset=12
 ```
